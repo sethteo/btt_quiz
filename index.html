@@ -7,19 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <div class="app">
         <h1>BTT Quiz</h1>
         <div class="quiz">
             <div class="question-image">
-                <img id="image" src="" alt="">
+                <img id="image" src="./assets/logo.png" alt="" class="display-block">
             </div>
             <h2 id="question" class="mb-4 mt-4"></h2>
 
                 <div id="answer-buttons" class="mt-3">
-                    <button class="btn btn-outline-primary container-fluid mb-4">Answer 1</button>
-                    <button class="btn btn-outline-primary container-fluid mb-3">Answer 2</button>
-                    <button class="btn btn-outline-primary container-fluid mb-3">Answer 3</button>
+                    <button id="quiz_1" class="btn btn-outline-primary container-fluid mb-4 text-center">Quiz 1</button>
+                    <button class="btn btn-outline-primary container-fluid mb-4 text-center">Quiz 2</button>
+                    <button class="btn btn-outline-primary container-fluid mb-4 text-center">Quiz 3</button>
                 </div>
                 <div class="d-grid gap-2 col-4 mx-auto mt-3">
                     <button id="next-btn" class="btn btn-info text-center">Next</button>
@@ -27,7 +27,16 @@
                 
         </div>
     </div>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script type="module" src="script.js"></script>
 </body>
+<footer class="mt-auto text-center text-lg-start bg-dark">
+    <div class="text-center p-3 text-light">
+        © 2023 Copyright, 
+      <a class="text-light" href="https://github.com/sethteo">Teo Hong Rui</a>
+    </div>
+</footer>
+
 </html>

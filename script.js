@@ -4,6 +4,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const imageElement = document.getElementById("image");
+const quiz1 = document.getElementById('quiz_1');
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -15,6 +16,7 @@ function startQuiz() {
     showQuestion();
 }
 
+// maybe let it accept the new doc
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -92,5 +94,7 @@ nextButton.addEventListener("click", () => {
     }
 })
 
-
-startQuiz();
+quiz1.addEventListener("click", () => {
+    startQuiz();
+})
+// startQuiz();
