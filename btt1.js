@@ -340,7 +340,7 @@ const questions = [
     },
     {
         question: "Car A intends to pass Car B near a side road on the left, Car A should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1689690471/btt_test_1/Screenshot_2023-07-18_at_10.25.18_PM_ycf2tz.png",
         answers: [
             { text: "Drive faster to pass the junction.", correct: false },
             { text: "Pass Car B on the right side.", correct: false },
@@ -349,7 +349,7 @@ const questions = [
     },
     {
         question: "Before changing lanes, you should check your blind spots by",
-        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1689690471/btt_test_1/Screenshot_2023-07-18_at_10.25.18_PM_ycf2tz.png",
+        image: "",
         answers: [
             { text: "Looking into the rearview mirror.", correct: false },
             { text: "Looking over your shoulder.", correct: true },
@@ -371,7 +371,7 @@ const questions = [
         answers: [
             { text: "Slowing down.", correct: false },
             { text: "Moving to the side.", correct: true },
-            { text: "Driving faster.", correct: true }
+            { text: "Driving faster.", correct: false }
         ]
     },
     {
@@ -380,7 +380,7 @@ const questions = [
         answers: [
             { text: "Slow down quickly.", correct: false },
             { text: "Pull to the side and stop if necessary.", correct: true },
-            { text: "Increase your speed.", correct: true }
+            { text: "Increase your speed.", correct: false }
         ]
     },
     {
@@ -425,7 +425,7 @@ const questions = [
         answers: [
             { text: "When your path of travel is obstructed by road works or parked vehicles.", correct: true },
             { text: "When your speed is higher than the speed limit for the road.", correct: false },
-            { text: "When the right lane is free of traffic.", correct: true }
+            { text: "When the right lane is free of traffic.", correct: false }
         ]
     },
     {
