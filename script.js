@@ -77,6 +77,7 @@ function showScore() {
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
+        imageElement.style.display = "none"; // Hide the image
         showQuestion();
     } else {
         showScore();
