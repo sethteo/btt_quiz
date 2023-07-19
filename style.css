@@ -12,6 +12,14 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.home {
+    background: #fff;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
 .app {
     background: #fff;
     width: 90%;
