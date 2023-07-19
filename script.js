@@ -1,11 +1,14 @@
-import { questions } from "./btt1.js";
+import { quiz1_questions } from "./btt1.js";
+import { quiz2_questions } from "./btt2.js";
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const imageElement = document.getElementById("image");
 const quiz1 = document.getElementById('quiz_1');
+const quiz2 = document.getElementById('quiz_2');
 
+let questions;
 let currentQuestionIndex = 0;
 let score = 0;
 
@@ -25,9 +28,11 @@ function showQuestion() {
 
     if (currentQuestion.image) {
         imageElement.src = currentQuestion.image;
-        imageElement.style.display = "block"; // Show the image
+        imageElement.classList.remove("d-none");
+        imageElement.classList.add("d-block");
       } else {
-        imageElement.style.display = "none"; // Hide the image
+        imageElement.classList.remove("d-block")
+        imageElement.classList.add("d-none")
       }
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -71,7 +76,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `You scored ${score} out of ${test.length}!`;
     nextButton.innerHTML = "Try again";
     nextButton.style.display = "block";
 }
@@ -79,7 +84,6 @@ function showScore() {
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
-        imageElement.style.display = "none"; // Hide the image
         showQuestion();
     } else {
         showScore();
@@ -88,6 +92,7 @@ function handleNextButton() {
 
 nextButton.addEventListener("click", () => {
     if(currentQuestionIndex < questions.length) {
+        imageElement.classList.add("d-none")
         handleNextButton();
     } else {
         startQuiz();
@@ -95,6 +100,11 @@ nextButton.addEventListener("click", () => {
 })
 
 quiz1.addEventListener("click", () => {
+    questions = quiz1_questions;
     startQuiz();
 })
-// startQuiz();
+
+quiz2.addEventListener("click", () => {
+    questions = quiz2_questions;
+    startQuiz();
+})

@@ -1,4 +1,4 @@
-const questions = [
+const quiz1_questions = [
     {
         question: "This sign means you",
         image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1689690474/btt_test_1/Screenshot_2023-07-18_at_10.21.29_PM_xu2fso.png",
@@ -450,4 +450,4 @@ const questions = [
 
 ];
 
-export { questions };
+export { quiz1_questions };
