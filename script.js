@@ -1,9 +1,10 @@
-import { quiz1_questions } from "./btt1.js";
-import { quiz2_questions } from "./btt2.js";
+import { quiz1_questions } from "./questions/btt1.js";
+import { quiz2_questions } from "./questions/btt2.js";
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const quizButton = document.getElementById("quiz-btn");
 const imageElement = document.getElementById("image");
 const quiz1 = document.getElementById('quiz_1');
 const quiz2 = document.getElementById('quiz_2');
@@ -19,7 +20,6 @@ function startQuiz() {
     showQuestion();
 }
 
-// maybe let it accept the new doc
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -76,9 +76,11 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${test.length}!`;
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Try again";
     nextButton.style.display = "block";
+    quizButton.classList.remove("d-none");
+    quizButton.classList.add("d-block");
 }
 
 function handleNextButton() {
@@ -97,6 +99,10 @@ nextButton.addEventListener("click", () => {
     } else {
         startQuiz();
     }
+})
+
+quizButton.addEventListener("click", () => {
+    window.location.href = "quizpage.html";
 })
 
 quiz1.addEventListener("click", () => {
