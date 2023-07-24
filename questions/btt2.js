@@ -7,7 +7,7 @@ const quiz2_questions = [
           { text: "May turn left or go straight if you wish.", correct: false },
           { text: "Must make a U-turn as the road ends on the right.", correct: false }
         ]
-      },
+      }, 
       {
         question: "This sign means",
         image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1689748509/btt_test_3/Screenshot_2023-07-19_at_2.32.41_PM_jaeggk.png",
@@ -116,7 +116,25 @@ const quiz2_questions = [
           { text: "That the lights are out of order.", correct: false }
         ]
       },
-      //missing q14 and q15
+      {
+        question: "What does this sign mean?",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690209521/btt_test_3/q14_jcznem.png",
+        answers: [
+          { text: "Slow down and beware of cyclist.", correct: false },
+          { text: 'Bicycle must travel along cycle track.', correct: true },
+          { text: "No driving on this lane.", correct: false }
+        ]
+      },
+      {
+        question: "What does this sign mean?",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690209521/btt_test_3/q15_cjnrhj.png",
+        answers: [
+          { text: "There is an army barrack ahead.", correct: false },
+          { text: 'Designated pedestrian crossing.', correct: true },
+          { text: "Restricted area ahead.", correct: false }
+        ]
+      },
+      
       {
         question: "A broken white line on the centre of the road as shown in this diagram means",
         image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1689748509/btt_test_3/Screenshot_2023-07-19_at_2.33.51_PM_xwmxxt.png",
@@ -180,7 +198,25 @@ const quiz2_questions = [
           { text: "Vehicles approaching from all directions to stop.", correct: false }
         ]
       },
-      //missing q23 and q24
+      {
+        question: "What does this driver's signal mean",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690209521/btt_test_3/q23_zzn4sm.gif",
+        answers: [
+          { text: "The driver intends to move in or turn right", correct: false },
+          { text: "The driver intends to move in or turn left", correct: true },
+          { text: "The driver wants you to overtake him from the left", correct: false }
+        ]
+      },
+      {
+        question: "What does this driver's signal mean",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690209521/btt_test_3/q24_xrrb8x.png",
+        answers: [
+          { text: "The driver intends to move in or turn right", correct: false },
+          { text: "The driver intends to stop", correct: true },
+          { text: "The driver wants you to overtake him from the right", correct: false }
+        ]
+      },
+      
       {
         question: "If the car you are overtaking is drifting in its lane, you should",
         image: "",
