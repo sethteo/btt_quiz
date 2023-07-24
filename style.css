@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('./assets/background_image.png');
+    background-image: url('./assets/background_image.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -14,8 +14,6 @@ body {
 
 .home {
     background: #fff;
-    width: 100%;
-    max-width: 800px;
     border-radius: 10px;
     opacity: 80%;
 }
@@ -27,6 +25,7 @@ body {
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
+    opacity: 90%;
 }
 
 .app h1 {

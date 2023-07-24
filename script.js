@@ -1,5 +1,6 @@
 import { quiz1_questions } from "./questions/btt1.js";
 import { quiz2_questions } from "./questions/btt2.js";
+import { quiz3_questions } from "./questions/btt3.js";
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -8,6 +9,11 @@ const quizButton = document.getElementById("quiz-btn");
 const imageElement = document.getElementById("image");
 const quiz1 = document.getElementById('quiz_1');
 const quiz2 = document.getElementById('quiz_2');
+const quiz3 = document.getElementById('quiz_3');
+const quiz4 = document.getElementById('quiz_4');
+const quiz5 = document.getElementById('quiz_5');
+const quiz6 = document.getElementById('quiz_6');
+
 
 let questions;
 let currentQuestionIndex = 0;
@@ -112,5 +118,10 @@ quiz1.addEventListener("click", () => {
 
 quiz2.addEventListener("click", () => {
     questions = quiz2_questions;
+    startQuiz();
+})
+
+quiz3.addEventListener("click", () => {
+    questions = quiz3_questions;
     startQuiz();
 })
