@@ -97,7 +97,11 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    if (questions.length - score < 5) {
+        questionElement.innerHTML = `Good job, you passed! \nYou scored ${score} out of ${questions.length}`;
+    } else {
+        questionElement.innerHTML = `You failed, try again! \nYou scored ${score} out of ${questions.length}`;
+    }
     nextButton.innerHTML = "Try again";
     nextButton.style.display = "block";
     quizButton.classList.remove("d-none");
