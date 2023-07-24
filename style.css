@@ -12,6 +12,12 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.title-text {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+}
+
 .textbox {
     background: #fff;
     border-radius: 10px;
