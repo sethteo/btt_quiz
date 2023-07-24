@@ -12,7 +12,12 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.nav-link {
+    font-size: 18px;
+}
+
 .title-text {
+    color: #333;
     font-weight: 700;
     font-size: 60px;
     font-family: 'Arimo', sans-serif;
@@ -21,10 +26,10 @@ body {
 .textbox {
     background: #fff;
     border-radius: 10px;
-    opacity: 80%;
+    opacity: 90%;
 }
 
-.app {
+.quiz-container {
     background: #fff;
     width: 90%;
     max-width: 600px;
@@ -34,15 +39,8 @@ body {
     opacity: 90%;
 }
 
-.app h1 {
-    color: #001e4d;
+.quiz-container h1 {
     border-bottom: 3px solid #333;
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-
-.quiz {
-    padding: 20px 0;
 }
 
 .quiz h2 {
@@ -54,6 +52,7 @@ body {
 .quiz button {
     font-weight: 500;
     text-align: left;
+    font-size: 20px;
 }
 
 #next-btn {
@@ -71,5 +70,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
 
