@@ -3,7 +3,7 @@ import { quiz2_questions } from "./questions/btt2.js";
 import { quiz3_questions } from "./questions/btt3.js";
 import { quiz4_questions } from "./questions/btt4.js";
 import { quiz5_questions } from "./questions/btt5.js";
-// import { quiz6_questions } from "./questions/btt6.js";
+import { quiz6_questions } from "./questions/btt6.js";
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -155,7 +155,7 @@ quiz5.addEventListener("click", () => {
     startQuiz();
 })
 
-// quiz6.addEventListener("click", () => {
-//     questions = quiz6_questions;
-//     startQuiz();
-// })
+quiz6.addEventListener("click", () => {
+    questions = quiz6_questions;
+    startQuiz();
+})
