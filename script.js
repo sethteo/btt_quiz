@@ -29,6 +29,15 @@ function startQuiz() {
     showQuestion();
 }
 
+function shuffleArray(array) {
+    const shuffledArray = array.slice(); // Create a copy of the original array
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
+}
+
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -43,7 +52,10 @@ function showQuestion() {
         imageElement.classList.remove("d-block")
         imageElement.classList.add("d-none")
       }
-    currentQuestion.answers.forEach(answer => {
+
+    const shuffledAnswers = shuffleArray(currentQuestion.answers);
+    
+    shuffledAnswers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn", "btn-outline-primary", "container-fluid", "mb-4");
