@@ -1,7 +1,7 @@
 const quiz4_questions = [
     {
         question: "This sign means",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189257/btt_test_4/Screenshot_2023-07-24_at_4.58.39_PM_f2bch5.png",
         answers: [
           { text: "Split traffic - vehicles may pass on either side.", correct: true },
           { text: "Two-way traffic - beware of traffic from right and left.", correct: false },
@@ -10,7 +10,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189257/btt_test_4/Screenshot_2023-07-24_at_4.58.44_PM_iidehm.png",
         answers: [
           { text: "Must stop and give way to traffic on a major road.", correct: true },
           { text: "Need not stop if there is no traffic on a major road.", correct: false },
@@ -19,7 +19,7 @@ const quiz4_questions = [
       },
       {
         question: "This sign means",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189257/btt_test_4/Screenshot_2023-07-24_at_4.58.49_PM_eaowow.png",
         answers: [
           { text: "You may stop for a short while so long as you remain in the car.", correct: false },
           { text: "You cannot wait but you can stop to let down or pick up passengers.", correct: false },
@@ -28,7 +28,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189257/btt_test_4/Screenshot_2023-07-24_at_4.58.54_PM_rkbgyv.png",
         answers: [
           { text: "Must turn left as there are no other roads ahead.", correct: false },
           { text: "Cannot turn left but may go straight or turn right.", correct: true },
@@ -37,7 +37,7 @@ const quiz4_questions = [
       },
       {
         question: "On seeing this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.58.59_PM_ev87d9.png",
         answers: [
           { text: "Drive carefully as there is a guard-rail along the road side.", correct: false },
           { text: "Drive carefully and look out for level gate closing.", correct: true },
@@ -46,7 +46,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189257/btt_test_4/Screenshot_2023-07-24_at_4.59.03_PM_uvxytd.png",
         answers: [
           { text: "Slow down and drive carefully in the hospital area.", correct: false },
           { text: "Drive carefully and give way to the 'Red Cross' ambulance.", correct: false },
@@ -55,7 +55,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.10_PM_cnqxtb.png",
         answers: [
           { text: "Slow down and give way to traffic from right and left.", correct: true },
           { text: "Slow down and make a U-turn - road ends ahead.", correct: false },
@@ -64,7 +64,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.14_PM_yh2h7a.png",
         answers: [
           { text: "Not slow down as you have the right of way.", correct: false },
           { text: "Slow down, beware of traffic from the right.", correct: true },
@@ -73,7 +73,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.19_PM_fgey4j.png",
         answers: [
           { text: "Not slow down as you have the right of way.", correct: false },
           { text: "Slow down and beware of traffic from the left.", correct: true },
@@ -82,7 +82,7 @@ const quiz4_questions = [
       },
       {
         question: "This sign means that you are",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.24_PM_y0uehl.png",
         answers: [
           { text: "Approaching a Pedestrian Overhead Bridge - beware of jay-walkers.", correct: false },
           { text: "Entering an Expressway - comply with the expressway rules.", correct: true },
@@ -91,7 +91,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this traffic sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.30_PM_qnsdm9.png",
         answers: [
           { text: "Slow down on seeing the sign.", correct: true },
           { text: "Reduce speed after the sign.", correct: false },
@@ -100,7 +100,7 @@ const quiz4_questions = [
       },
       {
         question: "This red signal light before the tunnel means",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.35_PM_h47j6a.png",
         answers: [
           { text: "Possible obstruction ahead, be prepared to change lane.", correct: false },
           { text: "The said lane is closed to traffic.", correct: true },
@@ -109,7 +109,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.39_PM_tuhteq.png",
         answers: [
           { text: "Should slow down and be prepared to stop for pedestrians to cross the road.", correct: true },
           { text: "Need not slow down if there is no pedestrian at the Crossing.", correct: false },
@@ -118,7 +118,7 @@ const quiz4_questions = [
       },
       {
         question: "When you see this sign, you should",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189256/btt_test_4/Screenshot_2023-07-24_at_4.59.43_PM_j9hujc.png",
         answers: [
           { text: "Slow down and drive carefully, beware of children crossing the road.", correct: true },
           { text: "Drive at the normal speed as the jogging track is on the opposite side of the road.", correct: false },
@@ -127,7 +127,7 @@ const quiz4_questions = [
       },
       {
         question: "What does a single yellow zig-zag line by the side of the road mean?",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_4.59.48_PM_pp5gpr.png",
         answers: [
           { text: "No waiting except for the immediate picking up and letting down of passengers.", correct: true },
           { text: "Allowed to wait as long as the driver remains in the car.", correct: false },
@@ -136,7 +136,7 @@ const quiz4_questions = [
       },
       {
         question: "Are you allowed to alight passengers along the road with double yellow zig-zag lines?",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_4.59.54_PM_fbjbwu.png",
         answers: [
           { text: "Yes.", correct: false },
           { text: "No, except Sundays and Public Holidays.", correct: false },
@@ -172,7 +172,7 @@ const quiz4_questions = [
       },
       {
         question: "The signal of this policeman means vehicles approaching",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_5.00.02_PM_wktsrv.png",
         answers: [
           { text: "On his right and left to stop.", correct: false },
           { text: "From his front and behind to go.", correct: false },
@@ -181,7 +181,7 @@ const quiz4_questions = [
       },
       {
         question: "The signal of this policeman means vehicles approaching",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_5.00.07_PM_sx106a.png",
         answers: [
           { text: "On his right, front and behind to stop.", correct: true },
           { text: "On his left to stop.", correct: false },
@@ -208,7 +208,7 @@ const quiz4_questions = [
       },
       {
         question: "Which car may proceed first?",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_5.00.14_PM_g5uaa3.png",
         answers: [
           { text: "Car A.", correct: true },
           { text: "Car B.", correct: false },
@@ -217,7 +217,7 @@ const quiz4_questions = [
       },
       {
         question: "Which car should give way?",
-        image: "",
+        image: "https://res.cloudinary.com/dzh7rqxop/image/upload/v1690189255/btt_test_4/Screenshot_2023-07-24_at_5.00.20_PM_rmb6fl.png",
         answers: [
           { text: "Car A.", correct: false },
           { text: "Car B.", correct: true },
